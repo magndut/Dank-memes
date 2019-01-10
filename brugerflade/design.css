@@ -1,0 +1,165 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  background-image: url(restaurant.jpeg);
+  background-size: cover;
+  background-position: top;
+  min-height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  text-align: justify;
+  font-family: Verdana;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.display-bottom {
+
+}
+
+.display-middle {
+  text-align: center;
+  margin: auto;
+  font-size: 72px;
+  color: white;
+  font-family: Raleway;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.display-topleft {
+  text-align: left;
+  margin: auto;
+  color: black;
+  font-family: Raleway;
+}
+
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin-left: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-family: Raleway;
+  transition-duration: 0.3s;
+  border-radius: 3px;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+input[type=number], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+input[type=datetime-local], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: Raleway;
+  font-size: 16px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.booking {
+  width: 30%;
+  border-radius: 6px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  color: black;
+  font-family: Raleway;
+  font-size: 24px;
+}
+
+.tider {
+  width: 30%;
+  border-radius: 6px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  color: black;
+  font-family: Raleway;
+  font-size: 24px;
+  text-align: center;
+}
+
+td {
+  border-bottom: 1px dashed black;
+}
+
+.slet {
+  background-color: lightgray;
+  border: none;
+  text-align: center;
+  font-size: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  cursor: pointer;
+  font-family: Raleway;
+  border-radius: 3px;
+  vertical-align: middle;
+}
+
+.blank {
+  border-bottom: 0;
+}
